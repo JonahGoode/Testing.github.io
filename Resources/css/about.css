@@ -435,7 +435,7 @@ scale: 3;
     }
 }
 
-.Testimonials-c {
+.tests-section {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -447,7 +447,7 @@ scale: 3;
     
 }
 
-.Testimonials-c h2 {
+.tests-section h2 {
     margin-top: -20px;
     margin-bottom: 30px;
     position: relative;
