@@ -279,7 +279,7 @@ section.about div.image{
    
     width: 50%;
     margin-right: 10px;
-    max-width: 600px;
+    max-width: 655px;
 }
 section.about div.image img{
     display: flex;
@@ -433,4 +433,60 @@ scale: 3;
     .client {
         flex: 0 1 100px; /* Even smaller on very small screens */
     }
+}
+
+.Testimonials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #000000;
+    margin: 0 auto;
+    padding: 20px;
+    
+}
+
+.Testimonials h2 {
+    margin-top: -20px;
+    margin-bottom: 30px;
+    position: relative;
+    font-weight: 500;
+    color: #fff;
+    border-bottom: #fff 1px solid;
+}
+.testimonials {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin:  auto;
+    color: #fff;
+   flex-wrap: wrap;
+    width: 100%;
+    gap: 100px;
+    
+    position: relative;
+    
+   
+}
+.testimonial {
+   border: #fff 1px solid;
+    padding: 10px;
+    flex: 0 1 calc(33.333% - 70px); /* Set width to roughly one-third minus gap spacing */
+    min-width: 250px; /* Minimum width for each testimonial */
+    max-width: 400px; /* Maximum width for each testimonial */
+    transition: all 0.5s ease;
+}
+.testimonial:hover {
+    scale: 1.1;
+}  
+
+@media screen and (max-width: 768px) {
+    .testimonials {
+        flex-direction: column;
+        padding: 1rem;
+        gap: 40px;
+    }
+
 }
