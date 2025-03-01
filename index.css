@@ -10,7 +10,7 @@
 }
 @font-face {
     font-family: 'Cinzel';
-    src: url('Font/Cinzel_Decorative/CinzelDecorative-Regular.ttf') format('truetype');
+    src: url('../Font/Cinzel_Decorative/CinzelDecorative-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 
@@ -28,7 +28,7 @@ body {
     padding: 0;
     min-height: 100vh;
     width: 100%;
-    background-image: url('background/_DSC5422 1.JPEG');
+    background-image: url('../background/_DSC5422 1.JPEG');
     background-position: 50% 20%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -92,7 +92,7 @@ a {
     padding: 0;
     min-height: 100vh;
     width: 100%;
-    background-image: url('background/_DSC5422 1.JPEG');
+    background-image: url('../background/_DSC5422 1.JPEG');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -122,31 +122,31 @@ html {
 
 @keyframes change {
     0% {
-        background-image: url('background/_DSC5422 1.JPEG');
+        background-image: url('../background/_DSC5422 1.JPEG');
         background-position: 50% 30%;
     }
     16.67% {
-        background-image: url('/Resources/images/portfolio-photos/background/Camila\ Mia253827\ 1.JPEG');
+        background-image: url('../background/Camila Mia253827 1.JPEG');
         background-position: 50% 20%;
     }
     33.34% {
-        background-image: url('background/ELSA WILD184005 1.JPEG');
+        background-image: url('../background/ELSA WILD184005 1.JPEG');
         background-position: 50% 30%;
     }
     50% {
-        background-image: url('background/IMG_8273.JPEG');
+        background-image: url('../background/IMG_8273.JPEG');
         background-position: 50% 20%;
     }
     66.67% {
-        background-image: url('background/IMG_8280.JPEG');
+        background-image: url('../background/IMG_8280.JPEG');
         background-position: 50% 20%;
     }
     83.34% {
-        background-image: url('background/Keziah 2024235561 1.JPEG');
+        background-image: url('../background/Keziah 2024235561 1.JPEG');
         background-position: 50% 20%;
     }
     100% {
-        background-image: url('background/_DSC5422 1.JPEG');
+        background-image: url('../background/_DSC5422 1.JPEG');
         background-position: 50% 30%;
     }
 }
